@@ -1,0 +1,78 @@
+[
+  {
+    "description": "    Validar la funcionalidad de login para los usuarios registrados en la pagina de automation practice",
+    "keyword": "Feature",
+    "name": "Logear en el sistema usuarios registrados",
+    "line": 1,
+    "id": "logear-en-el-sistema-usuarios-registrados",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "logear-en-el-sistema-usuarios-registrados;login-sin-cuenta",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Login sin cuenta",
+        "tags": [
+          {
+            "name": "@user_without_account",
+            "line": 38
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Usuario abre el navegador e ingresa la pagina de inicio",
+            "result": {
+              "status": "passed",
+              "duration": 5259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "usuario da clic en la opcion de SIGN IN",
+            "result": {
+              "status": "passed",
+              "duration": 5396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "Usuario no ingresa ni usuario ni contrasena",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "usuario da clic en la opcion de Submit Button",
+            "result": {
+              "status": "passed",
+              "duration": 1459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "el usuario visualiza mensaje de error \"An email address required.\"",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

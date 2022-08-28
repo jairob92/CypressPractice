@@ -1,0 +1,499 @@
+[
+  {
+    "description": "    Realizar pruebas a la funcionalidad de registrar usuarios en la plataforma",
+    "keyword": "Feature",
+    "name": "Registrar nuevos usuarios",
+    "line": 1,
+    "id": "registrar-nuevos-usuarios",
+    "tags": [],
+    "uri": "CreateAnAccount.feature",
+    "elements": [
+      {
+        "id": "registrar-nuevos-usuarios;registrar-nuevo-usuario",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Registrar nuevo usuario",
+        "tags": [
+          {
+            "name": "@Create_new_user",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Usuario abre el navegador e ingresa la pagina de inicio",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "usuario da clic en la opcion de SIGN IN",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "visualiza la opcion CREATE AN ACCOUNT",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "registra en el campo de correo el email \"jairobe1993@gmail.com\" y da clic en el boton CREATE AN ACCOUNT",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Visualiza el formulario registro",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Selecciona el genero \"Mr.\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Ingresa el nombre \"Jairo\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Ingresa el apellido \"Bermudez\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Ingresa el password \"Enero2028\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Selecciona el dia de nacimiento \"17\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Selecciona el mes de nacimiento \"December\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Selecciona el año de nacimiento \"1992\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "selecciona el check SIGN UP FOR OUR NEWS LATTER",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "selecciona el check RECIEVE SPECIAL OFFERS",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Ingresa el nombre de la compañia \"Compania XX\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Ingresa la direccion \"Calle 23\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Ingresa el nombre de la ciudad \"Big City\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Selecciona el estado \"Florida\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Ingresa el codigo ZIP \"25789\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Ingresa el pais \"United States\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Ingresa el telefono mobil \"320142547\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Ingresa el alias de la direccion \"Casa\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Da click en el boton de REGISTER",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "valido que el usuario registrado este logueado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "registrar-nuevos-usuarios;registrar-varios-usuarios",
+        "keyword": "Scenario",
+        "line": 61,
+        "name": "Registrar varios usuarios",
+        "tags": [
+          {
+            "name": "@Create_new_user_multiple",
+            "line": 34
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Usuario abre el navegador e ingresa la pagina de inicio",
+            "result": {
+              "status": "passed",
+              "duration": 2426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "usuario da clic en la opcion de SIGN IN",
+            "result": {
+              "status": "passed",
+              "duration": 3954000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "visualiza la opcion CREATE AN ACCOUNT",
+            "result": {
+              "status": "passed",
+              "duration": 1011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "registra en el campo de correo el email \"danie92@mail.com\" y da clic en el boton CREATE AN ACCOUNT",
+            "result": {
+              "status": "passed",
+              "duration": 4440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Visualiza el formulario registro",
+            "result": {
+              "status": "passed",
+              "duration": 1013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "Selecciona el genero \"Mr\"",
+            "result": {
+              "status": "passed",
+              "duration": 913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "Ingresa el nombre \"jack\"",
+            "result": {
+              "status": "passed",
+              "duration": 1208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "Ingresa el apellido \"vargas\"",
+            "result": {
+              "status": "passed",
+              "duration": 1239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Ingresa el password \"prueba123*\"",
+            "result": {
+              "status": "passed",
+              "duration": 1279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Selecciona el dia de nacimiento \"20\"",
+            "result": {
+              "status": "passed",
+              "duration": 963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Selecciona el mes de nacimiento \"January\"",
+            "result": {
+              "status": "passed",
+              "duration": 968000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Selecciona el año de nacimiento \"1993\"",
+            "result": {
+              "status": "passed",
+              "duration": 969000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "selecciona el check SIGN UP FOR OUR NEWS LATTER",
+            "result": {
+              "status": "passed",
+              "duration": 910000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "selecciona el check RECIEVE SPECIAL OFFERS",
+            "result": {
+              "status": "passed",
+              "duration": 914000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "Ingresa el nombre de la compañia \" HTS\"",
+            "result": {
+              "status": "passed",
+              "duration": 1027000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "Ingresa la direccion \"calle 25\"",
+            "result": {
+              "status": "passed",
+              "duration": 1056000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "Ingresa el nombre de la ciudad \"Calgary\"",
+            "result": {
+              "status": "passed",
+              "duration": 1056000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "Selecciona el estado \"Nevada\"",
+            "result": {
+              "status": "passed",
+              "duration": 967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "Ingresa el codigo ZIP \"524178\"",
+            "result": {
+              "status": "passed",
+              "duration": 1047000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Ingresa el pais \"United States\"",
+            "result": {
+              "status": "passed",
+              "duration": 971000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Ingresa el telefono mobil \"325417\"",
+            "result": {
+              "status": "passed",
+              "duration": 1043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Ingresa el alias de la direccion \"usuario1\"",
+            "result": {
+              "status": "passed",
+              "duration": 1065000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Da click en el boton de REGISTER",
+            "result": {
+              "status": "passed",
+              "duration": 2283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "valido que el usuario registrado este logueado",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.info-account`, but never found it.\n    at MyAccount.UserRegistredMessage (http://automationpractice.com/__cypress/tests?p=cypress\\integration\\CreateAnAccount.feature:174:55)\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress\\integration\\CreateAnAccount.feature:559:13)\n    at Context.resolveAndRunStepDefinition (http://automationpractice.com/__cypress/tests?p=cypress\\integration\\CreateAnAccount.feature:10998:29)\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress\\integration\\CreateAnAccount.feature:10319:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
